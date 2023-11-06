@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/styleForm.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de Producto</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre del Producto:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="precio">Precio del Producto:</label>
+                <input type="number" id="precio" name="precio" required step="0.01">
+            </div>
+            <div class="form-group">
+                <label for="categoria">Categoría del Producto:</label>
+                <input type="text" id="categoria" name="categoria" required>
+            </div>
+            <button type="submit">Guardar Producto</button>
+            <div class="link-home">
+                <a href="Index.html" >Volver atras</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

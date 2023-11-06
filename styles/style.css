@@ -1,0 +1,91 @@
+/* Estilos para el cuerpo de la página (solo para ejemplo) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #222222; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Estilos para el logotipo */
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.nav-links li {
+    margin-right: 20px;
+
+}
+
+/* Estilos para los enlaces */
+.nav-links a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+/* Cambio de color al pasar el mouse por encima del enlace */
+.nav-links a:hover {
+    color: #093c6b; 
+}
+
+/* Estilos para las tarjetas */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+
+/* Estilo de imagen */
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo del botón de compra */
+.buy-button {
+    background-color: #093c6b; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.buy-button:hover {
+    background-color: #08345e;
+}
+
+/* Estilo de precio */
+.price {
+    font-size: 1.2em;
+    color: #445769; 
+    margin: 10px 0;
+}
