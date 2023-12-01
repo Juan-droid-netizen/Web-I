@@ -14,25 +14,32 @@
 /* Estilos para el título del formulario */
 .form-container h2 {
     font-size: 1.5em;
-    color: #5bc0de; /* Color de título animalista (azul claro) */
+    margin-bottom: 4vh;
+    color: #00a6ed; /* Color de título animalista (azul claro) */
 }
 
 /* Estilos para los grupos de formulario */
 .form-group {
+    display: inline;
+    justify-content: center;
+    align-items: center;
     margin: 10px 0;
     text-align: left;
 }
 
 /* Estilos para etiquetas de formulario */
 .form-group label {
+    color: #007fff;
+    margin: 2vh;
     font-weight: bold;
-    display: block;
+    display: inline-block;
+    justify-content: center;
     margin-bottom: 5px;
 }
 
 /* Estilos para las casillas de formulario */
 .form-group input {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -44,9 +51,10 @@
 
 /* Estilos para el botón de envío */
 form button {
-    background-color: #ff6f61; /* Color de botón animalista (rojo) */
+    background-color: #00a6ed; /* Color de botón animalista (rojo) */
     color: #fff;
     border: none;
+    margin: 3vh;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
@@ -55,5 +63,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #f55d4e; /* Cambia a un color animalista más oscuro al pasar el mouse (rojo más oscuro) */
+    background-color: #007fff; /* Cambia a un color animalista más oscuro al pasar el mouse (rojo más oscuro) */
 }

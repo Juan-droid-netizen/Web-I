@@ -2,22 +2,23 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles/styleForm.css">
+    
 </head>
 <body>
     <div class="form-container">
         <h2>Formulario de Producto</h2>
-        <form>
+        <form id="myForm">
             <div class="form-group">
-                <label for="nombre">Nombre del Producto:</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <label for="nombre">Nombre del Producto</label>
+                <input type="text" id="nameId" name="nombre" required>
             </div>
             <div class="form-group">
-                <label for="precio">Precio del Producto:</label>
-                <input type="number" id="precio" name="precio" required step="0.01">
+                <label for="precio">Precio del Producto</label>
+                <input type="number" id="priceId" name="precio" required step="0.01">
             </div>
             <div class="form-group">
-                <label for="categoria">Categoría del Producto:</label>
-                <input type="text" id="categoria" name="categoria" required>
+                <label for="categoria">Categoría del Producto</label>
+                <input type="text" id="categoryId" name="categoria" required>
             </div>
             <button type="submit">Guardar Producto</button>
             <div class="link-home">
@@ -25,5 +26,6 @@
             </div>
         </form>
     </div>
+    <script src="code/codigo.js"></script>
 </body>
 </html>
