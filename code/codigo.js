@@ -1,3 +1,5 @@
+// newproduct.html
+
 document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault()
 
@@ -12,8 +14,9 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
             name: name,
             price: "$"+ price,
             category: category
-        };
+        }
         console.log(product)
         alert("Producto agregado" + JSON.stringify(product))
     }
 })
+
